@@ -1,0 +1,17 @@
+name: Linter check
+
+on:
+  push:
+    branches:
+      - develop #On lance ce workflow lors d'un push sur develop
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2 #recupere le code source du repo
+      - name: Install dependencies
+        run: npm install
+      - name: Linter check
+        run: npm run lint
