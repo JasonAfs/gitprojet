@@ -1,7 +1,3 @@
-var burger = document.querySelector(".burger");
-var menu = document.querySelector(".menu");
-
-burger.addEventListener("click", () => {
-  menu.classList.toggle("show");
-});
-var jason = 1;
+let jason;
+jason = "jason";
+console.log(jason);
