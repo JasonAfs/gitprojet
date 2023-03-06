@@ -98,3 +98,53 @@ header {
       display: block;
     }
   }
+  footer {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+  }
+  
+  footer h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    color: #333;
+  }
+  
+  @media (max-width: 767px) {
+    footer .container {
+      text-align: center;
+    }
+    
+    footer .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    footer .col-md-4 {
+      margin-bottom: 40px;
+    }
+  }
+  
