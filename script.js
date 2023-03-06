@@ -4,4 +4,4 @@ var menu = document.querySelector(".menu");
 burger.addEventListener("click", () => {
   menu.classList.toggle("show");
 });
-var jason = 1
+var jason = 1;
